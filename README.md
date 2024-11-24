@@ -48,18 +48,18 @@ npm install discord.js axios
 ### 4. Configure the Script
 Now, open the script (e.g., your_script.js) and configure it with the necessary information:
 
-YOUR_DISCORD_BOT_TOKEN: Replace this with your Discord bot token (from Step 1).
-YOUR_GITHUB_WEBHOOK_SECRET: Replace this with the secret key for your webhook (Step 2).
-YOUR_USERNAME/YOUR_REPOSITORY: Replace with your GitHub username and repository name.
-YOUR_GITHUB_ACCESS_TOKEN: Replace with your GitHub personal access token.
+1. YOUR_DISCORD_BOT_TOKEN: Replace this with your Discord bot token (from Step 1).
+2. YOUR_GITHUB_WEBHOOK_SECRET: Replace this with the secret key for your webhook (Step 2).
+3. YOUR_USERNAME/YOUR_REPOSITORY: Replace with your GitHub username and repository name.
+4. YOUR_GITHUB_ACCESS_TOKEN: Replace with your GitHub personal access token.
 
 
 
 Example:
-const DISCORD_BOT_TOKEN = 'YOUR_DISCORD_BOT_TOKEN';
-const GITHUB_WEBHOOK_SECRET = 'YOUR_GITHUB_WEBHOOK_SECRET';
-const GITHUB_REPO = 'YOUR_USERNAME/YOUR_REPOSITORY';
-const GITHUB_ACCESS_TOKEN = 'YOUR_GITHUB_ACCESS_TOKEN';
+1. const DISCORD_BOT_TOKEN = 'YOUR_DISCORD_BOT_TOKEN';
+2. const GITHUB_WEBHOOK_SECRET = 'YOUR_GITHUB_WEBHOOK_SECRET';
+3. const GITHUB_REPO = 'YOUR_USERNAME/YOUR_REPOSITORY';
+4. const GITHUB_ACCESS_TOKEN = 'YOUR_GITHUB_ACCESS_TOKEN';
 
 ### 5. Run the Script
 Once the webhook is set up and the script is configured, you can start the bot by running the script:
@@ -76,7 +76,7 @@ To test the integration, make a change in your GitHub repository (e.g., commit a
 #### Troubleshooting
 If you're encountering issues, check the following:
 
-Discord Token or GitHub Token Issues: Ensure that both your Discord bot token and GitHub access token are correct.
-Webhook Not Triggering: Make sure you've selected the right events (like "push" or "pull_request") when setting up the webhook in GitHub.
-No Message in Discord: Double-check the format of the webhook URL in GitHub, especially the channel ID and token.
-If you continue to face problems, feel free to open an issue in the repository for assistance.
+1. Discord Token or GitHub Token Issues: Ensure that both your Discord bot token and GitHub access token are correct.
+2. Webhook Not Triggering: Make sure you've selected the right events (like "push" or "pull_request") when setting up the webhook in GitHub.
+3. No Message in Discord: Double-check the format of the webhook URL in GitHub, especially the channel ID and token.
+4. If you continue to face problems, feel free to open an issue in the repository for assistance.
