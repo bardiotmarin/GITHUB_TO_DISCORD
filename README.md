@@ -41,7 +41,7 @@ Now, your repository is connected to your Discord channel. This webhook will sen
 
 Install the required Node.js packages by running:
 
-use you bash
+## use you bash
 npm install discord.js axios
 
 
@@ -64,7 +64,7 @@ const GITHUB_ACCESS_TOKEN = 'YOUR_GITHUB_ACCESS_TOKEN';
 ### 5. Run the Script
 Once the webhook is set up and the script is configured, you can start the bot by running the script:
 
-use you bash
+## use you bash
 node webhook.js
 
 This will start the process, and the bot will listen for GitHub events and forward them to your Discord channel.
