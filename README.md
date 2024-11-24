@@ -55,7 +55,7 @@ Now, open the script (e.g., your_script.js) and configure it with the necessary 
 
 
 
-Example:
+Example:<br/><br/>
 const DISCORD_BOT_TOKEN = 'YOUR_DISCORD_BOT_TOKEN';<br/>
 const GITHUB_WEBHOOK_SECRET = 'YOUR_GITHUB_WEBHOOK_SECRET';<br/>
 const GITHUB_REPO = 'YOUR_USERNAME/YOUR_REPOSITORY';<br/>
