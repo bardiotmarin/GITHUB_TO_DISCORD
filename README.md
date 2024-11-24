@@ -56,10 +56,10 @@ Now, open the script (e.g., your_script.js) and configure it with the necessary 
 
 
 Example:
-1. const DISCORD_BOT_TOKEN = 'YOUR_DISCORD_BOT_TOKEN';
-2. const GITHUB_WEBHOOK_SECRET = 'YOUR_GITHUB_WEBHOOK_SECRET';
-3. const GITHUB_REPO = 'YOUR_USERNAME/YOUR_REPOSITORY';
-4. const GITHUB_ACCESS_TOKEN = 'YOUR_GITHUB_ACCESS_TOKEN';
+const DISCORD_BOT_TOKEN = 'YOUR_DISCORD_BOT_TOKEN';<br/>
+const GITHUB_WEBHOOK_SECRET = 'YOUR_GITHUB_WEBHOOK_SECRET';<br/>
+const GITHUB_REPO = 'YOUR_USERNAME/YOUR_REPOSITORY';<br/>
+const GITHUB_ACCESS_TOKEN = 'YOUR_GITHUB_ACCESS_TOKEN';<br/>
 
 ### 5. Run the Script
 Once the webhook is set up and the script is configured, you can start the bot by running the script:
